@@ -92,7 +92,9 @@ p {
 } 
 @media only screen and (max-width: 667px) {
     .socials {
-        padding-bottom: 200px;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
     } 
 }
 .social {
@@ -103,6 +105,8 @@ p {
     justify-content: space-around;
     padding:80px; 
 } 
+
+
 .subtext {
     font-size: 15px;
     font-weight: 300;
@@ -114,6 +118,14 @@ p {
     margin-left: 80px;
 
 } 
+@media only screen and (max-width: 667px) {
+.headshot { 
+    width:100px;
+    border-radius: 150px;
+    margin-left: 40px;
+
+} 
+}
 
 .headshot-container {
     display:list-item;
