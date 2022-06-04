@@ -39,7 +39,7 @@ li {
 } 
 
 h1 {
-    font-size: 90px;
+    font-size: 80px;
     margin: 0;
 } 
 
@@ -60,13 +60,20 @@ p {
 }
 
 .hero-text {
-    margin-left: 0px;
+    margin-left: 80px;
     margin-bottom: 200px;
-} 
+}
+
+/* @media only screen and (min-width: 350px) {
+    * {
+        width: 100%;
+    }
+} */
 @media only screen and ( max-width: 667px) {
-.hero-text {
-    margin-left: 10px;
-    margin-bottom: 100px;
+    .hero-text {
+        margin: 0px;
+        margin-bottom: 100px;
+        width:50%;
     } 
 }
 .button {
