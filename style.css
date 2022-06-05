@@ -134,7 +134,9 @@ p {
     margin-left: 40px;
     } 
 }
-
+.contact-me {
+    flex-direction: column;
+}
 .headshot-container {
     display:list-item;
     align-items: center;
