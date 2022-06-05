@@ -74,6 +74,7 @@ p {
         margin: 0px;
         margin-bottom: 100px;
         width:50%;
+       
     } 
 }
 .button {
@@ -114,8 +115,13 @@ p {
     justify-content: space-around;
     padding:80px; 
 } 
-
-
+@media only screen and (max-width: 667px) {
+.information{
+       
+        font-size: 30px;
+        font-weight: 100;
+    } 
+}
 .subtext {
     font-size: 15px;
     font-weight: 300;
